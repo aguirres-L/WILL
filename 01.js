@@ -11,7 +11,13 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
-
+  let arra1 = array
+  for(let i=0;i<arra1.length;i++){
+    if(typeof arra1[i]==='string'){
+      arra1.splice(i,1)
+    }
+  }
+return arra1
 }
 
 // No modifiques nada debajo de esta linea //
